@@ -1,0 +1,87 @@
+/* NewVideo.css */
+
+.new-video {
+    background-color: #00104e;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .new-video h2 {
+    color: #00d9ff;
+    margin-bottom: 20px;
+  }
+
+  .new-video form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .new-video form label {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .new-video form input,
+  .new-video form select,
+  .new-video form textarea {
+    background-color: #333;
+    color: white;
+    border: 1px solid #444;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    transition: border-color 0.2s, background-color 0.2s;
+  }
+
+  .new-video form input:focus,
+  .new-video form select:focus,
+  .new-video form textarea:focus {
+    outline: none;
+    border-color: #00d9ff;
+  }
+
+  .new-video form textarea {
+    height: 120px;
+    resize: vertical;
+  }
+.new-video__actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.btn-primary {
+  background-color: #00b9da;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  border-radius: 10px 0px 10px 0px;
+  border: solid 3px;
+  padding: 10px;
+}
+
+.btn-primary:hover {
+  color: #0004ff;
+}
+
+.btn-secondary {
+  color: black;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  border-radius: 10px 0px 10px 0px;
+  border: solid 3px;
+  padding: 15px;
+  background-color: #00d9ff;
+}
+
+.btn-secondary:hover {
+  color: #0004ff;
+}

@@ -1,0 +1,70 @@
+/* EditVideo.css */
+
+.edit-video {
+    background-color: #00104e;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .edit-video h2 {
+    color: #00d9ff;
+    margin-bottom: 20px;
+  }
+
+  .edit-video form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .edit-video form label {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .edit-video form input,
+  .edit-video form select,
+  .edit-video form textarea {
+    background-color: #333;
+    color: white;
+    border: 1px solid #444;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    transition: border-color 0.2s, background-color 0.2s;
+  }
+
+  .edit-video form input:focus,
+  .edit-video form select:focus,
+  .edit-video form textarea:focus {
+    outline: none;
+    border-color: #00d9ff;
+  }
+
+  .edit-video form textarea {
+    height: 120px;
+    resize: vertical;
+  }
+
+  .edit-video form button {
+
+  transition: background-color 0.2s;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  border-radius: 10px 0px 10px 0px;
+  border: solid 3px;
+  padding: 15px;
+  background-color: #00d9ff;
+  color: black;
+  }
+
+  .edit-video form button:hover {
+    color: #0004ff;
+  }
